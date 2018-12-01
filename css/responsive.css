@@ -1,0 +1,58 @@
+@media only screen and (max-width: 1005px){
+    .left-menu{
+        font-size: 14px;
+    }
+    h1{
+        font-size: 26px;
+    }
+    span{
+        font-size: 40px;
+    }
+    p{
+        font-size: 12px;
+    }
+    .block{
+        font-size: 70px;
+    }
+}
+@media only screen and (max-width: 619px){
+    header{
+        text-align: center;
+        
+    }
+    .left-side{
+        float: none;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .right-side{
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+    .block{
+        font-size: 50px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+    }
+    .icon{
+        padding: 10px 0;
+    }
+    .website-card{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
+@media only screen and (max-width: 500px){
+    .home-menu{
+        width: 100%;
+        border: none;
+        position: relative;
+        text-align: center;
+        font-size: 24px;
+    }
+} 

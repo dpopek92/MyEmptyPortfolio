@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Terminal - Home</title>
+  <title>Home</title>
 
   <meta name="description" content="Opis zawartości strony dla wyszukiwarek">
   <meta name="keywords" content="słowa, kluczowe, opisujące, zawartość">
@@ -20,25 +20,21 @@
 </head>
 
 <body>
-  <div class="container container-terminal terminal-view">
-    <div class="bottom-section-terminal">
-      <div class="bottom-terminal">
-        <div class="terminal"></div>
-      </div>
-      <div class="bottom-commandline">
-        <div class="commandline">
-          <span>></span><span class="getter"></span><span id="animatedCursor" class="cursor">|</span>
-        </div>
-      </div>
-      <textarea id="textarea"></textarea>
-    </div>
 
-    <div class="buttons">
-      <button class="button button-terminal button-language">PL</button>
-      <a href="index-classic.html"><button class="button button-terminal button-page">Classic view</button></a>
+  <nav class="home-nav classic-view">
+    <ul class="menu home-nav-menu">
+      <li><a href="about.html">About</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <!--           <li><a href="index.html">Home</a></li>-->
+    </ul>
+    <div class="buttons-classic buttons-home">
+      <a href=""><button class="button-classic-home button-language">PL</button></a>
+      <a href="index.html"><button class="button-classic-home button-page">Treminal view</button></a>
     </div>
-    <div class="clear-both"></div>
-  </div>
+  </nav>
+
+
   <script src="js/main.js"></script>
 </body>
 

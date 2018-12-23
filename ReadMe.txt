@@ -1,0 +1,1 @@
+Ogarnąć responsywność, język polski dla klasycznej wersji i odpalanie na różnych przeglądarkach
